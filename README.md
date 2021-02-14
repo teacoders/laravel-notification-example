@@ -40,7 +40,8 @@ DB_DATABASE=db_name
 DB_USERNAME=db_user_name
 DB_PASSWORD=db_password
 
-QUEUE_CONNECTION=database // You can use another queue driver if you want and if you don't want to use the queue then don't change it and don't run any commands related to the queue
+// You can use another queue driver if you want and if you don't want to use the queue then don't change it and don't run any commands related to the queue
+QUEUE_CONNECTION=database 
 
 // add mailtrap or other mail service credentials
 MAIL_DRIVER=smtp
