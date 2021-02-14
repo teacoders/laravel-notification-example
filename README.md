@@ -56,6 +56,7 @@ And
 php artisan queue:table
 php artisan migrate
 php artisan serve
+// open new terminal and run
 php artisan queue:work
 ```
 
